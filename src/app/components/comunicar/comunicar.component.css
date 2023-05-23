@@ -1,0 +1,128 @@
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 55px;
+}
+
+#social-platforms {
+    position: relative;
+
+
+    font-size: 1rem;
+    text-align: center;
+
+    overflow: hidden;
+
+}
+
+/*Pen code from this point on*/
+.btn {
+    clear: both;
+    white-space: nowrap;
+    font-size: .8em;
+    display: inline-block;
+    border-radius: 5px;
+
+    margin: 2px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    overflow: hidden
+}
+
+.btn:hover {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+}
+
+.btn:focus {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn>span,
+.btn-icon>i {
+    float: left;
+    padding: 13px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    line-height: 1em
+}
+
+.btn>span {
+    padding: 14px 18px 16px;
+    white-space: nowrap;
+    color: #FFF;
+    background: #b8b8b8
+}
+
+.btn:focus>span {
+    background: #9a9a9a
+}
+
+.btn-icon>i {
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    width: 13px;
+    text-align: center;
+    font-size: 1.25em;
+    color: #fff;
+    background: #212121
+}
+
+.btn-icon>i:after {
+    content: "";
+    border: 8px solid;
+    border-color: transparent transparent transparent #222;
+    position: absolute;
+    top: 13px;
+    right: -15px
+}
+
+.btn-icon:hover>i,
+.btn-icon:focus>i {
+    color: #FFF
+}
+
+.btn-icon>span {
+    border-radius: 0 5px 5px 0
+}
+
+/*Facebook*/
+.btn-facebook:hover>i,
+.btn-facebook:focus>i {
+    color: #f37022;
+}
+
+.btn-facebook>span {
+    background: #f37022;
+}
+
+/*Twitter*/
+.btn-twitter:hover>i,
+.btn-twitter:focus>i {
+    color: #ec1d23;
+}
+
+.btn-twitter>span {
+    background: #ec1d23;
+}
+
+/*Google*/
+.btn-googleplus:hover>i,
+.btn-googleplus:focus>i {
+    color: #bd1a8d
+}
+
+.btn-googleplus>span {
+    background: #bd1a8d
+}
+
+/*Pinterest*/
+.btn-pinterest:hover>i,
+.btn-pinterest:focus>i {
+    color: #2d2b74
+}
+
+.btn-pinterest>span {
+    background: #2d2b74
+}
+
